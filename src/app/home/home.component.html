@@ -1,0 +1,17 @@
+<div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+    <a class="item" [routerLink]="['child-home']" [routerLinkActive]="['active']">
+      First Child
+    </a>
+    <a class="item" [routerLink]="['second-child']" [routerLinkActive]="['active']" >
+      Second Child
+    </a>
+  </div>
+</div>
+
+
+<div class="homeContainer">
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
